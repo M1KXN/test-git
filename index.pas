@@ -6,7 +6,7 @@ type
 var a : mass;
 res : real;
 begin
-    write('Введите x (integer): ');
+    write('Введите x (integer):');
     readln(a.x);
     write('Введите y (real): ');
     readln(a.y);
