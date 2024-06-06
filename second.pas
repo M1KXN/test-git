@@ -6,6 +6,6 @@ begin
     close(s);
     assign(s, 'info2.txt');
     append(s);
-    writeln(s, 'Что-то другое...');
+    writeln(s, 'Хотя всё-таки пусть так!');
     close(s);
 end.
