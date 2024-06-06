@@ -2,10 +2,10 @@ var s : text;
 begin
     assign(s, 'info1.txt');
     append(s);
-    writeln(s, 'Привет, мир!');
+    writeln(s, 'РџСЂРёРІРµС‚, РјРёСЂ!');
     close(s);
     assign(s, 'info2.txt');
     append(s);
-    writeln(s, 'Хотя всё-таки пусть так!');
+    writeln(s, 'РҐРѕС‚СЏ РІСЃС‘-С‚Р°РєРё РїСѓСЃС‚СЊ С‚Р°Рє!');
     close(s);
 end.

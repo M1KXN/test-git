@@ -1,4 +1,4 @@
-﻿type
+type
     mass = record 
     x : integer;
     y : real;
