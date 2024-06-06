@@ -11,5 +11,7 @@ begin
     write('Введите y (real): ');
     readln(a.y);
     res := a.y * a.x;
-    writeln(res:0:2);
+    writeln('Умножили: ', res:0:2);
+    res := a.y / a.x;
+    writeln('Поделили: ', res:0:2);
 end.
